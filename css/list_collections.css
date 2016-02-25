@@ -1,0 +1,29 @@
+/***************************************************************************
+ Standard styles for the collection list page. 
+ 
+ You can override these styles in your own CSS by using the !important tag. 
+ 
+ Example:
+  
+   #page-list-collections #collections-listing > #pagination {
+     background-color: pink !important;
+   } 
+
+***************************************************************************/
+
+#page-list-collections #collections-listing > ul li { 
+  margin: 0 3em;
+}
+
+#page-list-collections #collections-listing > ul li { 
+  padding-top: 1.4em;
+} 
+
+#page-list-collections #collections-listing > #pagination { 
+  margin: 0 3em;
+  margin-top: 2em;
+}
+
+#page-list-collections #collections-listing > #pagination > span { 
+  margin-left: 0.4em;
+}
